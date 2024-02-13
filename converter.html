@@ -1,0 +1,33 @@
+  <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number System Converter</title>
+    <link rel="stylesheet "href="converter.css"/>
+    </head>
+    <body>
+    <div claas="All">
+    <div class="converter">
+        <h2>Number System Converter</h2>
+        
+        <select id="conversionType">
+            <option value="binary">Convert Binary To All</option>
+            <option value="decimal">Convert Decimal To All</option>
+            <option value="octal">Convert Octal To All</option>
+            <option value="hexadecimal">Convert Hexadecimal To All</option>
+        </select>
+        <input type="text" id="numberInput" placeholder="Enter Number To Convert...">
+        <input type="button" value="Convert" onclick="convertNumber()">
+        <table id="result" style="display:none;">
+            <tbody><tr>
+                <th>Number System</th>
+                <th>Conversion</th>
+            </tr>
+        </tbody></table>
+    </div>
+    </div>
+    <script src="converter.js">
+    </script>
+    
+    
+    </body></html>
